@@ -1,0 +1,9 @@
+.container{
+    height: 100vh;
+    background-color: linear-gradient(to right, #E70FD0, #33AEFF);
+}
+#boton1{
+    background-color: #3D3B3D;
+    color: white;
+    
+}

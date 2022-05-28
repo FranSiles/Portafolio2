@@ -1,0 +1,17 @@
+body {
+    background: linear-gradient(to right, #E70FD0, #33AEFF);
+}
+
+.card-img-left {
+    width: 45%;
+    /* Link to your background image using in the property below! */
+    background: scroll center url('./imagenes/imagen.jpg');
+    background-size: cover;
+}
+
+#nombre{
+    color: white;
+}
+#mitad{
+    background-color: #EC00FF;
+}
