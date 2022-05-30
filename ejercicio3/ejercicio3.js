@@ -1,7 +1,6 @@
-/*
-
-
-*/
+document.getElementById("activar").addEventListener("click", function() {
+  comparar(lado1,lado2,lado3);
+});
 
 function comparar(){
 

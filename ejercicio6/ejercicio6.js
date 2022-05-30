@@ -1,3 +1,7 @@
+document.getElementById("activar").addEventListener("click", function() {
+    palindromo(palabra);
+});
+
 function palindromo(){
 
 

@@ -1,3 +1,7 @@
+document.getElementById("activar").addEventListener("click", function() {
+    calcular(radio);
+});
+
 function calcular(){
 const PI = 3.1416;
 let radio = Number(document.getElementById('radio').value);

@@ -11,9 +11,9 @@
 </head>
 <body>
     
- <div class="container"><!-- container para usar grid-->
+ <div id="container"><!-- container para usar grid-->
    <div class="row d-flex justify-content-center vh-100 align-items-center"><!-- row para usar grid -->
-    <div class="col-sm-10 col-md-8 col-lg-6 mx-auto border border-primary"><!-- para distribuir espacio para todos los campos igual-->
+    <div id="tabla" class="col-sm-10 col-md-8 col-lg-6 mx-auto border border-primary"><!-- para distribuir espacio para todos los campos igual-->
         <h2 class="text-center my-4">Cálculos circulares a partir de un radio</h2>
         <h4 class="text-center mb-2">Introduce un valor numérico de radio:</h4>
 
@@ -22,8 +22,8 @@
         <input type="text" class="form-control" id="radio" placeholder="número positivo">
     </div>
 
-    <button onclick="calcular()" class="btn btn-primary mb-3" >Calcular!</button>
-    <a href="../portafolio.html" class="btn btn-primary mb-3">Pagina principal</a>
+    <button id="activar" class="btn btn-primary mb-3" >Calcular!</button>
+    <a href="../index.html" class="btn btn-primary mb-3">Pagina principal</a>
     <ul class="puntos">
         <li id="circunferencia"></li>
         <li id="circulo"></li>
